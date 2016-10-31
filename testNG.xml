@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+ 
+    <classes>
+      <class name="appleiTunes.testCountry"/>
+       <class name="appleiTunes.testMedia"/>
+        <class name="appleiTunes.testGeneric"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
